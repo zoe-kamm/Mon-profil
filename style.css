@@ -1,0 +1,94 @@
+/*Colors and fonts*/
+
+h1 {
+	font-family: 'Times New Roman', serif;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+}
+
+p {
+	font-family: 'Times New Roman', serif;
+	font-size: 16px;
+	justify-content: center;
+}
+
+body {
+	background-image:url("images/violet.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-attachment:fixed;
+	margin: 0;
+}
+
+li{
+	list-style: none;
+	font-size: 17px;
+	display: inline;
+	margin: 40px;
+}
+
+img {
+	border-radius: 50%;
+}
+
+address {
+	list-style: none;
+	display: inline;
+	margin: 10px;
+	text-decoration: none;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#Profil {
+	width: 640px;
+	background-color: rgb(255, 214, 236,0.8);
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: mediumpurple;
+	border-style: solid ;
+	box-shadow: 10px 20px 30px rgba(30,30,30,0.3);
+	text-align:center;
+	padding: 12px;
+	margin: 30px;
+	line-height: 3px;
+}
+
+
+/*classes*/
+
+.card-white {
+	width: 640px;
+	background-color: rgb(255, 214, 236,0.8);
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: mediumpurple;
+	border-style: solid ;
+	box-shadow: 10px 20px 30px rgba(30,30,30,0.3);
+	text-align:center;
+	padding: 12px;
+	margin: 30px;
+}
+
+/*Media queries*/
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+@media all and (max-width: 600px)
+{
+    .container
+    {
+        width: auto;
+    }
+}
